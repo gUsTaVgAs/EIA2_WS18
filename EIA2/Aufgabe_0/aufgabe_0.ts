@@ -1,7 +1,7 @@
-var i : string ="";
+//var i : string ="";
         
     function main() {
-        var i = prompt("Wie heiﬂt du?");
+        var i : string = prompt("Wie heisst du?");
         var node : any = document.getElementById("content");
         node.innerHTML += "Moin ";
         node.innerHTML += i;

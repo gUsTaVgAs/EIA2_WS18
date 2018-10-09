@@ -1,6 +1,6 @@
-var i = "";
+//var i : string ="";
 function main() {
-    var i = prompt("Wie hei�t du?");
+    var i = prompt("Wie heisst du?");
     var node = document.getElementById("content");
     node.innerHTML += "Moin ";
     node.innerHTML += i;
