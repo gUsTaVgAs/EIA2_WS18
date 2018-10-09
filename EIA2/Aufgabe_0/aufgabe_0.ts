@@ -5,7 +5,7 @@
         var node : any = document.getElementById("content");
         node.innerHTML += "Moin ";
         node.innerHTML += i;
-        node.innerHTML += ",  immer schön Cremig bleiben";
+        node.innerHTML += ",  immer schoen Cremig bleiben";
         console.log("Moin ",i,", sei gegrüßt");
         }
     
