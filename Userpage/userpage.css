@@ -1,0 +1,11 @@
+
+img[alt=me] {
+	
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 60%;
+	border: 6px solid black;
+	z-index: 5;
+}
