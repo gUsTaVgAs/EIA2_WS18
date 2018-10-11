@@ -1,4 +1,3 @@
-//var i : string ="";
 function main() {
     var i = prompt("Wie heisst du?");
     var node = document.getElementById("content");
@@ -7,5 +6,5 @@ function main() {
     node.innerHTML += ",  immer schoen Cremig bleiben";
     console.log("Moin ", i, ", sei gegr��t");
 }
-document.addEventListener('DOMContentLoaded', main);
+document.addEventListener("DOMContentLoaded", main);
 //# sourceMappingURL=aufgabe_0.js.map
