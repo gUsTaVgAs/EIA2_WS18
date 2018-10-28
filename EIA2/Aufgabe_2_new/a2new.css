@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+body {
+	background-Color: #b3d9ff;
+}
+
+a {
+	display: block;
+	text-align: center;
+	line-height: 240px;
+	font-size: 1.8em;
+}
+
+div {
+	border: thin solid black;
+	text-Align: center;
+	width: 130px;
+	height: 200px;
+	border-Radius: 10px;
+	font-size: 1.5em;
+	float: left;
+	margin: 7px;
+	line-height: 190px;
+}
+
+footer{
+	position: absolute;
+	top: 700px;
+	padding:5em;
+}
+
+#Ablagestapel {
+	border: thin solid black;
+	position: absolute;
+	background-Color: #F2F2F2;
+	width: 250px;
+	height: 250px;
+	right: 100px;
+	top: 10px;
+}
+
+#Nachziehstapel {
+	border: thin solid black;
+	position: absolute;
+	background-Color: #00994d;
+	width: 130px;
+	height: 200px;
+	left: 100px;
+	top: 35px;
+	border-Radius: 10px;
+}
+
+#Handkarten {
+	position: absolute;
+	border: thin solid white;
+	width: 730px;
+	height: 430px;
+	padding: 10px;
+	top: 300px;
+	left: 19%;
+	margin: 15px;
+	background-color:#cccccc;
+}
