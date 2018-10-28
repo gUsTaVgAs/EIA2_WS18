@@ -9,7 +9,7 @@ var A2new;
         return Math.floor(Math.random() * Math.floor(_maxNum));
     }
     function main() {
-        let handCards = parseInt(prompt("Wie viele Karten willst du? (max 10)"));
+        let handCards = parseInt(prompt("Wie viel Karten d�rfen's sein ? "));
         if (handCards > 10) {
             handCards = 10;
         }
@@ -38,7 +38,7 @@ var A2new;
         }
         function createCards(_color, _n, _i) {
             let div = document.createElement("div");
-            document.getElementById("Hand").appendChild(div);
+            document.getElementById("Handkarten").appendChild(div);
             div.setAttribute("id", "a" + _i);
             document.getElementById("a" + _i).innerHTML += _n;
             let s = div.style;

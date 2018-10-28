@@ -11,7 +11,7 @@ namespace A2new {
     }
     
     function main(): void {
-        let handCards: number = parseInt(prompt("Wie viele Karten willst du? (max 10)"));
+        let handCards: number = parseInt(prompt("Wie viel Karten dürfen's sein ? "));
         if (handCards > 10) {
             handCards = 10;
         }
@@ -47,7 +47,7 @@ namespace A2new {
         function createCards(_color: string, _n: string, _i: number): void {
 
             let div: HTMLDivElement = document.createElement("div");
-            document.getElementById("Hand").appendChild(div);
+            document.getElementById("Handkarten").appendChild(div);
             div.setAttribute("id", "a" + _i);
             document.getElementById("a" + _i).innerHTML += _n;
 
