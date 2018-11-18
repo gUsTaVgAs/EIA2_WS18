@@ -1,7 +1,7 @@
 @charset "ISO-8859-1";
 
 body {
-	background-Color: #F2F2F2;
+	background-Color: #00ff99;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h3 {
 
 fieldset {
 	width: 300px;
-	border: thin solid black;
+	border: solid white;
 	background-Color: #ffffff;
 }
 
@@ -33,7 +33,7 @@ div {
 	top: 68px;
 	left: 380px;
 	width: 300px;
-	border: thin solid black;
+	border: solid black;
 	padding-bottom: 10px;
 	padding-left: 15px;
 	background-Color: #ffffff;
