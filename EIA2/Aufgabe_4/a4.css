@@ -39,7 +39,7 @@ div {
 	background-Color: #ffffff;
 }
 
-.myButton {
+#button {
 	position: absolute;
 	top: 350px;
 	left: 380px;
