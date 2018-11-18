@@ -12,4 +12,4 @@ export interface products{
     export let candleTyp:products[]=[{name:"Keine ausgewaehlt",price:0},{name:"Wachs",price:3},{name:"LED",price:5}];
     export let shipment:products[]=[{name:"Keine ausgewaehlt",price:0},{name:"DPD",price:20},{name:"DHL",price:25},{name:"UPS",price:30}];
 
-} 
+}

@@ -43,7 +43,7 @@ namespace A4 {
             childNodeHTML += "<label for='check" + i + "'>" + holder[i].name + " " + holder[i].price + " Euro</label>";
         }
         childNodeHTML += "<hr>";
- 
+
         //Glaskugeln
         childNodeHTML += "<h3>Kugeln</h3>";
         childNodeHTML += "<select name='Select' id='kugeln'>";
