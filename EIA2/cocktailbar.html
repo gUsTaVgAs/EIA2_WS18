@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DRINKit</title>
+  <script src="cocktail1.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>DRINKit - the online Cocktail Bar</h1>
+    <p>Configure your personal Cocktail, if you'd like to have one in two days</p>
+  </header>
+
+  <form id="form">
+    <div id="configurator">
+      <fieldset>
+        <legend>Choose your Drink</legend>
+        <label> Mojito <input type="checkbox" name="Drink" id="mojito" value="Mojito" price="3.50"> </label>
+        <label> White Russian <input type="checkbox" name="Drink" id="whiterussian" value="Whiterussian" price="3.50">
+        </label>
+        <label> Pool <input type="checkbox" name="Drink" id="pool" value="Pool" price="4.00"> </label>
+        <label> Caipirinha <input type="checkbox" name="Drink" id="caipi" value="Caipirinha" price="4.00"> </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Choose your Container</legend>
+        <label> One way Cup <input type="radio" name="Container" id="oneway" value="Oneway" price="1.00"> </label>
+        <label> reusable Cup <input type="radio" name="Container" id="reusable" value="Reusable" price="2.00"> </label>
+        <label> Cocktail glass <input type="radio" name="Container" id="glass" value="Glass" price="3.00"> </label>
+        <label> Glass and Shaker <input type="radio" name="Container" id="glassandshaker" value="Glassandshaker"
+            price="5.00"> </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Any Extras?</legend>
+
+        <!--<input list="extras">
+        <datalist id="extras">-->
+         <select id="extras" name="Extras"> 
+          <option value="Bamboo Straw" price="1.00">Bamboo Straw</option>
+          <option value="Pineapple" price="0.50">Pineapple</option>
+          <option value="Fresh Mint" price="0.50">Fresh Mint</option>
+          <option value="Olives" price="0.50">Olives</option>
+         </select>
+       <!--</datalist>-->
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Size in liters</legend>
+        <div id="bar">
+          0.2<input type="range" name="Size" id="size" min="0.2" max="1.5" step="0.1">1.5
+
+          <progress value="0.2" max="1.5"></progress>
+        </div>
+      </fieldset>
+    </div>
+  </form>
+
+  <div>
+    <h2>Your Order</h2><br>
+    <div id="order">
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEMORY</title>
+    <link rel="stylesheet" href="memory.css">
+    <script src="memorycard.js"></script>
+  </head>
+  <body>
+
+    <h1 onclick="createplayers()">Memory</h1>
+    
+    <section id="setup">
+      <label for="Kartenpaare">Anzahl der Kartenpaare</label>
+      <input list="Kartenpaare">
+        <datalist id="Kartenpaare">
+          <option value="5">5</option>
+          <option value="10">10</option>
+
+
+
+
+        </datalist>
+
+    </section>
+    
+    <section id="Spielfeld">
+
+    </section>
+
+    <section id="Punktetabelle">
+      
+      <label for="namespieler1">Name Spieler 1</label>
+      <input id="namespieler1">
+      <button onclick="createplayers()">Add Player</button>
+
+      <label for="namespieler2">Name Spieler 2</label>
+      <input id="namespieler2">
+
+      <label for="namespieler3">Name Spieler 3</label>
+      <input id="namespieler3">
+
+      <label for="namespieler4">Name Spieler 4</label>
+      <input id="namespieler4">
+
+    </section>
+  </body>
+</html>

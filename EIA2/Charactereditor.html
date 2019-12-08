@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Character Editor</title>
+    <link rel="stylesheet" href="character.css">
+    <script src="character.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Time to add some Character</h1>
+        <p>Create your personal Star Wars Character</p>
+    </header>
+
+    <form>  
+        <div id="editor">
+
+            <fieldset>
+                <legend>Name</legend>
+                <input type="text">
+            </fieldset>
+
+            <fieldset>
+                <legend>Gender</legend>
+                <label> Male <input type="radio" name="Gender" value="male"></label>
+                <label> Female <input type="radio" name="Gender" value="Female"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Species</legend>
+                <select id="species" name="Species">
+                    <option value="wookie">Wookie</option>
+                    <option value="human">Human</option>
+                    <option value="twi'lek">Twi'lek</option>
+                    <option value="rodian">Rodian</option>
+                    <option value="trandoshan">Trandoshan</option>
+                </select>
+            </fieldset>
+
+
+            <fieldset>
+                    <legend>Class</legend>
+                    <select id="class" name="Class">
+                        <option value="jedi">Jedi</option>
+                        <option value="sith">Sith</option>
+                        <option value="bounty hunter">Bounty Hunter</option>
+                        <option value="assassin">Assassin</option>
+                    </select>
+                </fieldset>
+
+            
+            <fieldset>
+                <legend>Height</legend>
+                <label>Height in cm (100-200)  <input type="number" id="height" name="Height" min="100" max="200"></label>
+            </fieldset>
+
+
+             <fieldset>
+                <legend>Weight</legend>
+                <label>Weight in kg (40-200)  <input type="number" id="weight" name="Weight" min="40" max="200"></label>
+            </fieldset>
+
+
+            <fieldset>
+                    <legend>Weapon</legend>
+                    <label> 2 small weapons <input type="radio" name="Weapon" value="2 small weapons"></label>
+                    <label> 1 heavy weapon <input type="radio" name="Weapon" value="1 heavy weapon"></label>
+                </fieldset>
+            
+            <fieldset>
+                <legend>Choose the color of your Look</legend>
+                    <input type="color" name="Color" value="#03f0fc">
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Accesoires</legend>
+                    <label>Tattoo <input type="checkbox" name="Accesoires" value="tattoo"></label>
+                    <label>Cape <input type="checkbox" name="Accesoires" value="cape"></label>
+                    <label>Helmet <input type="checkbox" name="Accesoires" value="helmet"></label>
+                    <label>BB-Droid <input type="checkbox" name="Accesoires" value="bb-droid"></label>
+                </fieldset>
+            
+            
+            <fieldset>
+                <legend>Give your Character a Story  </legend>
+                    <textarea name="Story" rows="10" cols="65"></textarea>    
+            </fieldset>
+
+            <fieldset>
+                <legend>Date of Birth</legend>
+                <input type="date" name="Birthday">
+            </fieldset>
+
+            <fieldset>   
+            <legend>Your Special Power</legend>
+                <label>Velocity<input type="radio" name="Specialpower" value="velocity"></label>
+                <label>Strength<input type="radio" name="Specialpower" value="strength"></label>
+                <label>Endurance<input type="radio" name="Specialpower" value="endurance"></label>
+            </fieldset>
+
+            <fieldset>
+                    <legend>Starting Planet</legend>
+                    <select id="planet" name="Planet">
+                        <option value="corouscant">corouscant</option>
+                        <option value="hoth">hoth</option>
+                        <option value="kashyyk">kashyyk</option>
+                        <option value="mustafar">mustafar</option>
+                        <option value="naboo">naboo</option>
+                    </select>
+                </fieldset>         
+        </div>
+    </form>
+
+    <div>
+        <h2>Your Character</h2><br>
+        <div id="output"></div>
+    </div>
+    
+</body>
+</html>
