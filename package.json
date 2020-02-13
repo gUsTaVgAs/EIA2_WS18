@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "canvas1.js",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
      "start": "node Endabgabe/server.js"
  },
@@ -13,5 +11,14 @@
     "url": "https://github.com/gUsTaVgAs/EIA2_WS19/tree/master"
   },
   "author": "Christian Randazzo",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gUsTaVgAs/EIA2_WS19/issues"
+  },
+  "homepage": "https://github.com/gUsTaVgAs/EIA2_WS19#readme",
+  "dependencies": {
+    "@types/mongodb": "^3.3.1",
+    "mongodb": "^3.3.2"
+  }
+
 }
