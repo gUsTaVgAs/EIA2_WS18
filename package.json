@@ -1,0 +1,17 @@
+{
+  "name": "eia2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "canvas1.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "start": "node canvas1.js"
+ },
+  "repository": {
+    "type": "git",
+    "url": "EIA2_WS19"
+  },
+  "author": "Christian Randazzo",
+  "license": "ISC"
+}
