@@ -16,7 +16,7 @@ namespace endabgabe {
     export let buttonStart: HTMLButtonElement;
     export let buttonHs: HTMLButtonElement;
     export let form: HTMLFormElement;
-    export let url: string = "https://milchstrasse.herokuapp.com/";
+    export let url: string = "https://gustavgans.herokuapp.com/";
 
 
     function handleLoad(): void {
