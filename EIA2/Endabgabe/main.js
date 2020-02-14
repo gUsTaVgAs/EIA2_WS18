@@ -6,7 +6,7 @@ var endabgabe;
     endabgabe.highscore = 0;
     endabgabe.timer = 45;
     endabgabe.hungryBirds = [];
-    endabgabe.url = "https://milchstrasse.herokuapp.com/";
+    endabgabe.url = "https://gustavgans.herokuapp.com/";
     function handleLoad() {
         endabgabe.canvas = document.querySelector("canvas");
         endabgabe.crc2 = endabgabe.canvas.getContext("2d");
